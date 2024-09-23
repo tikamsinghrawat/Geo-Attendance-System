@@ -67,22 +67,7 @@ flutter pub get
 flutter run
 ```
 
-## Screenshots
+## Team Members
 
-
-<img src="assets/github/landing.jpg" width="200" > &nbsp; <img
-src="assets/github/login.jpg" width="200"> &nbsp; <img
-src="assets/github/drawer.jpg" width="200"> &nbsp; <img
-src="assets/github/dashboard.jpg" width="200"> &nbsp; <img
-src="assets/github/make_attendance.jpg" width="200"> &nbsp; <img
-src="assets/github/mark_attendance.jpg" width="200"> &nbsp; <img
-src="assets/github/leave_make.jpg" width="200"> &nbsp; <img
-src="assets/github/leave_status.jpg" width="200"> &nbsp; <img
-src="assets/github/calendar.jpg" width="200">
-
-## Our TEAM 🤘
-
-- <a href="https://github.com/deepaktiwari88">Deepak Tiwari</a>
-- <a href="https://github.com/arunav11">Arunav Sharma</a>
-- <a href="https://github.com/agargya123">Avantika Gargya</a>
-- <a href="https://github.com/divy4nsh">Divyansh Singh</a>
+Tikam Singh Rawat
+Yashvardhan Raikuni
