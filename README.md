@@ -22,25 +22,23 @@
 or reject the leaves applied for, by an employee under him.
 - **Cloud Notification** - Push Notifications on leave status change
 
-### Admin Application
-<a href="https://github.com/deepaktiwari88/HR-Management-and-Geo-Attendance-System-Admin-App">Link to Administrator Application</a>
 
-## Setting Up the Project
+
 
 ### Firebase Console Set up
 Add/Replace your google-services.json (downloadable from your firebase console) file into android/app directory. The project is built upon Real time database offered by Google Firebase. It is tailored right now according to our team needs. E.g. the login functionality is using an Employee ID, which we accomplished by mapping email ID to Unique ID (Employee ID). Enable the email authentication in the Auth Tab of Firebase Project.
-<br><img src="assets/github/users.png" width="250"> <br>
+
 The Location of the various sites are stored in the Location Stub of RTDB with key as unique ID and parameters as
 - latitude(double)
 - longitude(double)
 - name(string)
 - radius(number in metres)
 
-<br><img src="assets/github/location.png" width="250"> <br>
+
 Attendance will be added to the **"Attendance"** stub in the RTDB tree. Leave System has some specific parameters for every employee which is required to run the app.
-<br><img src="assets/github/leave.png" width="250"> <br>
+
 I will attach a JSON sample file(in the root directory) which you can use to prepopulate sample data in the RTDB using Import JSON feature.
-<br><img src="assets/github/sample.png" width="250"> <br>
+
 At last, Kindly update the google API key in the android manifest and enable the necessary Maps API on your API console. <a href="https://console.developers.google.com">Google Developer API console</a>
 
 ### Cloud Functions
